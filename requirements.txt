@@ -1,2 +1,2 @@
 flask
-flask-resfult
+flask-restful
