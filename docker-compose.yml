@@ -1,0 +1,13 @@
+version: "3"
+services:
+
+  api:
+
+    image: py_carribean_api
+    container_name: $container_name
+    build:
+      context: .
+    ports:
+      - 5000
+    environment:
+      - VIRTUAL_HOST=$web_address # jenkinstest.docker
