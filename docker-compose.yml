@@ -1,8 +1,7 @@
-version: "3"
+version: '3'
 services:
 
   api:
-
     image: py_carribean_api
     container_name: $container_name
     build:
